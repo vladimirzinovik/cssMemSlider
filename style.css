@@ -39,10 +39,6 @@
     background-color: white;
 }
 
-#btn5:checked~.switch label[for="btn5"] {
-    background-color: white;
-}
-
 .slider-inner {
     overflow: hidden;
 
@@ -73,8 +69,4 @@
 
 #btn4:checked~.slider-inner .slides {
     transform: translateX(-300%);
-}
-
-#btn5:checked~.slider-inner .slides {
-    transform: translateX(-400%);
 }

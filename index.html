@@ -5,24 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 766px)" href="mobile.css">
+    <link rel="stylesheet" href="style.css">
     <title>cssMemSlider</title>
 </head>
 
 <body class="body">
     <div class="slider">
-        <div class="slides">
-            <img class="slides slide1" src="./assets/img/1.webp" alt="mem">
-            <img class="slides slide2" src="./assets/img/2.webp" alt="mem">
-            <img class="slides slide3" src="./assets/img/3.webp" alt="mem">
-            <img class="slides slide4" src="./assets/img/4.webp" alt="mem">
-            <img class="slides slide5" src="./assets/img/5.webp" alt="mem">
+        <input type="radio" name="switch" id="btn1" checked>
+        <input type="radio" name="switch" id="btn2">
+        <input type="radio" name="switch" id="btn3">
+        <input type="radio" name="switch" id="btn4">
+        <input type="radio" name="switch" id="btn5">
+
+        <div class="slider-inner">
+            <div class="slides">
+                <img src="./assets/img/1.webp" alt="mem">
+                <img src="./assets/img/2.webp" alt="mem">
+                <img src="./assets/img/3.webp" alt="mem">
+                <img src="./assets/img/4.webp" alt="mem">
+                <img src="./assets/img/5.webp" alt="mem">
+            </div>
         </div>
-        <div class="control">
-            <div class="description"></div>
-            <div class="radiobutton"></div>
+
+        <div class="switch">
+            <label for="btn1"></label>
+            <label for="btn2"></label>
+            <label for="btn3"></label>
+            <label for="btn4"></label>
+            <label for="btn5"></label>
         </div>
+
     </div>
 </body>
 
